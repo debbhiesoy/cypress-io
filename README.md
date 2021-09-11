@@ -1,4 +1,6 @@
-# Make sure to install npm and node
+# Creating your first Cypress.io Tests
+
+## Make sure to install npm and node
 Install npm by using command
 ```npm install -g```
 Make sure that npm is installed. Check version of the npm installed by  ```npm -v```
@@ -25,7 +27,7 @@ Wrote to /Users/<your_user>/cypress.io/package.json:
 2) Install cypress ```npm install --save-dev cypress``` into a project to run in cypress
 3) Open Cypress interface by running command ```npx cypress open```
 
-# Create first tests
+## Create first tests
 When creating your first tests you need a webpage in doing the validation.
 
 Refer to target-app as you react application. Run ```npm run  start``` to be build your npm modules. Npm modules serves as repository for your node.js dependencies.
@@ -42,7 +44,7 @@ For this first test we use example 1 of our react web application and  refer to 
     5.2) Get the inner text from it 
     5.3) And validates if the text is equal to the expected value we input
 
-# Run your tests in cypress
+## Run your tests in cypress
 
 1) Open your cypress application by running ```npx cypress open```
 2) This will  give our cypress window and navigate to our ```first_test.spec.js```
@@ -53,11 +55,11 @@ For this first test we use example 1 of our react web application and  refer to 
 Cypress will only take few seconds to reload and exclude runtime and build time to any changes on the tests
 ![Cypress Fail](img/fail_1.png)
 
-# Create a test which input in 2 textboxes
+## Create a test which input in 2 textboxes
 1) Navigate to ```second_test.spec.js``` locates in cypress/inteegration folder
 2) Explanation per tests are documented on the code
 3) Once ready to validate the tests in cypress. Just run  command ```npx cypress open```
 
-# References
+## References
 * [Cypress](https://www.cypress.io/)
 * [Shaun Wassell Cypress Tutorial](https://www.linkedin.com/learning/end-to-end-javascript-testing-with-cypress-io)
