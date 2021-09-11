@@ -25,7 +25,34 @@ Wrote to /Users/debby/IdeaProjects/Personal-Tuts/cypress.io/package.json:
 2) Install cypress ```npm install --save-dev cypress``` into a project to run in cypress
 3) Open Cypress interface by running command ```npx cypress open```
 
+# Create first tests
+When creating your first tests you need a webpage in doing the validation.
+
+Refer to target-app as you react application. Run ```npm run  start``` to be build your npm modules. Npm modules serves as repository for your node.js dependencies.
+
+For this first test we use example 1 of our react web application and  refer to first_test.spec.js as our refence for our first tests. 
+
+1) Create an anonymous function for your test 
+2) Define your actual tests. We use ```it`` and anonymous function which contains are actual tests validation
+3) Type ```cy``` as our Cypress command
+4) Navigate to page by ```cy.visit(url)```
+5) Do the actual assertion for the page by validating the page title
+  What does the code do:
+    5.1) Cypress will find the ```h1``` element of the page
+    5.2) Get the inner text from it 
+    5.3) And validates if the text is equal to the expected value we input
+
+# Run your tests in cypress
+
+1) Open your cypress application by running ```npx cypress open```
+2) This will  give our cypress window and navigate to our ```first_test.spec.js```
+3) Click and run the tests
+![Cypress Pass](img/pass_1.png)
+
+4) Validate if value inputted is invalid.
+Cypress will only take few seconds to reload and exclude runtime and build time to any changes on the tests
+![Cypress Fail](img/fail_1.png)
+
 # References
-* https://docs.cypress.io/guides/getting-started/writing-your-first-test?utm_source=Test%20Runner&utm_medium=New%20Project%20Banner&utm_campaign=How%20To#Add-a-test-file 
-* https://www.linkedin.com/learning/end-to-end-javascript-testing-with-cypress-io/writing-your-first-cypress-test?u=81316978
-* https://www.cypress.io/
+* [Cypress](https://www.cypress.io/)
+* [Shaun Wassell Cypress Tutorial](https://www.linkedin.com/learning/end-to-end-javascript-testing-with-cypress-io)
