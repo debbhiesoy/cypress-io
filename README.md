@@ -7,7 +7,7 @@ Make sure that node is installed. Check version of the node installed by ```node
 Your good to go to create your first cypress.io test. To do follow the steps:
 1) ```npm init -y``` - initialize directory as npm package. It will generate package.json. This will output
 
-Wrote to /Users/debby/IdeaProjects/Personal-Tuts/cypress.io/package.json:
+Wrote to /Users/<your_user>/cypress.io/package.json:
 
 {
   "name": "cypress.io",
