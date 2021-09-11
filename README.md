@@ -53,9 +53,10 @@ For this first test we use example 1 of our react web application and  refer to 
 Cypress will only take few seconds to reload and exclude runtime and build time to any changes on the tests
 ![Cypress Fail](img/fail_1.png)
 
-# Create a test to input in 2 textboxes
+# Create a test which input in 2 textboxes
 1) Navigate to ```second_test.spec.js``` locates in cypress/inteegration folder
-2) 
+2) Explanation per tests are documented on the code
+3) Once ready to validate the tests in cypress. Just run  command ```npx cypress open```
 
 # References
 * [Cypress](https://www.cypress.io/)
