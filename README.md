@@ -7,7 +7,7 @@ Make sure that node is installed. Check version of the node installed by ```node
 Your good to go to create your first cypress.io test. To do follow the steps:
 1) ```npm init -y``` - initialize directory as npm package. It will generate package.json. This will output
 
-Wrote to /Users/debby/IdeaProjects/Personal-Tuts/cypress.io/package.json:
+Wrote to /Users/<your_user>/cypress.io/package.json:
 
 {
   "name": "cypress.io",
@@ -30,10 +30,10 @@ When creating your first tests you need a webpage in doing the validation.
 
 Refer to target-app as you react application. Run ```npm run  start``` to be build your npm modules. Npm modules serves as repository for your node.js dependencies.
 
-For this first test we use example 1 of our react web application and  refer to first_test.spec.js as our refence for our first tests. 
+For this first test we use example 1 of our react web application and  refer to ```first_test.spec.js``` as our refence for our first tests. 
 
 1) Create an anonymous function for your test 
-2) Define your actual tests. We use ```it`` and anonymous function which contains are actual tests validation
+2) Define your actual tests. We use ```it``` and anonymous function which contains are actual tests validation
 3) Type ```cy``` as our Cypress command
 4) Navigate to page by ```cy.visit(url)```
 5) Do the actual assertion for the page by validating the page title
