@@ -57,6 +57,7 @@ Cypress will only take few seconds to reload and exclude runtime and build time 
 
 ## Create a test which input in 2 textboxes
 1) Navigate to ```second_test.spec.js``` locates in cypress/inteegration folder
+2) Reference react application is example 2
 2) Explanation per tests are documented on the code
 3) Once ready to validate the tests in cypress. Just run  command ```npx cypress open```
 
