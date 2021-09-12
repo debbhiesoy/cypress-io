@@ -1,3 +1,6 @@
+/// <reference types="Cypress"/>
+//The code above suggest intellisense to all Cypress commands which serves as a helper to all Cypress command & document link you might need.
+
 describe('Text box with max characters', () => {
     beforeEach(() => {
         cy.visit('/example-3');  // this is  the url. the baseUrl is configured in cypress.json

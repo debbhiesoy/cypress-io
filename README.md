@@ -61,6 +61,10 @@ Cypress will only take few seconds to reload and exclude runtime and build time 
 2) Explanation per tests are documented on the code
 3) Once ready to validate the tests in cypress. Just run  command ```npx cypress open```
 
+## Additional Notes
+This code ```/// <reference types="Cypress"/>``` suggest intellisense to all Cypress commands which serves as a helper to all Cypress commands & documents link you might need.
+Or the other way around is you can simply add ```jsconfig.json``` which provides same methodology on the code above.
+
 ## References
 * [Cypress](https://www.cypress.io/)
 * [Shaun Wassell Cypress Tutorial](https://www.linkedin.com/learning/end-to-end-javascript-testing-with-cypress-io)
