@@ -6,7 +6,7 @@ Install npm by using command
 Make sure that npm is installed. Check version of the npm installed by  ```npm -v```
 Make sure that node is installed. Check version of the node installed by ```node -v```
 
-Your good to go to create your first cypress.io test. To do follow the steps:
+You're good to go to create your first cypress.io test. Follow the steps below:
 1) ```npm init -y``` - initialize directory as npm package. It will generate package.json. This will output
 
 Wrote to /Users/<your_user>/cypress.io/package.json:
@@ -30,13 +30,13 @@ Wrote to /Users/<your_user>/cypress.io/package.json:
 ## Create first tests
 When creating your first tests you need a webpage in doing the validation.
 
-Refer to target-app as you react application. Run ```npm run  start``` to be build your npm modules. Npm modules serves as repository for your node.js dependencies.
+Refer to target-app as you react application. Run ```npm run  start``` to build your npm modules. Npm modules serves as repository for your node.js dependencies.
 
 For this first test we use example 1 of our react web application and  refer to ```first_test.spec.js``` as our refence for our first tests. 
 
 1) Create an anonymous function for your test 
-2) Define your actual tests. We use ```it``` and anonymous function which contains are actual tests validation
-3) Type ```cy``` as our Cypress command
+2) Define your actual tests. We use ```it``` as a anonymous function which contains are actual tests validation
+3) Type ```cy``` which refers as our Cypress command
 4) Navigate to page by ```cy.visit(url)```
 5) Do the actual assertion for the page by validating the page title
   What does the code do:
@@ -56,8 +56,8 @@ Cypress will only take few seconds to reload and exclude runtime and build time 
 ![Cypress Fail](img/fail_1.png)
 
 ## Create a test which input in 2 textboxes
-1) Navigate to ```second_test.spec.js``` locates in cypress/inteegration folder
-2) Reference react application is example 3
+1) Navigate to ```second_test.spec.js``` locates in cypress/integration folder
+2) Reference react application will be example 3 of target-app react application
 2) Explanation per tests are documented on the code
 3) Once ready to validate the tests in cypress. Just run  command ```npx cypress open```
 
